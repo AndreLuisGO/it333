@@ -1,6 +1,6 @@
 import unittest
 
-import mousetrap.app.ui.color
+import mousetrap.app.ui.scripts.color
 
 class test_color(unittest.TestCase):
 
