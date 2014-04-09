@@ -1,6 +1,7 @@
 import unittest
 
-import mousetrap.app.ui.scripts.color
+#this brings "No module named mousetrap.app.ui.color"
+import mousetrap.app.ui.color  
 
 class test_color(unittest.TestCase):
 
@@ -14,7 +15,7 @@ class test_color(unittest.TestCase):
         expectedWhite8Bit = (255, 255, 255)
 
         # EXECUTE
-
+        #when ignoring the module error (line 3), it brings " ' test.color' object has no attribute 'convertColorDepth'
         resultWhite8Bit = color.convertColorDepth(whiteRgb16bit)
 
         # ASSESS
