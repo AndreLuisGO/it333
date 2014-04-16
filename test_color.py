@@ -7,7 +7,7 @@ class test_color(unittest.TestCase):
 
     # test_<unit-of-work>_<state-under-test>_<expected-behavior>
     # This tests if the 16-bit color depth is correctly being converted to 8-bit color depth
-    def test_convertColorDepth_correctInput(self):
+    def test_ConvertColorDepth_CorrectInput(self):
 
         # SETUP
 
