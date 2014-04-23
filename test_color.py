@@ -1,13 +1,12 @@
 import unittest
 import color
 
-class test_color(unittest.TestCase):
+class test_Module(unittest.TestCase):
 
     def test_convertColorDepth_CorrectInput(self):
 
         whiteRgb16Bit = 65535
         expectedWhite8Bit = 255
-
         resultWhite8Bit = color.convertColorDepth(self,whiteRgb16Bit)
 
         self.assertTrue(0 <= resultWhite8Bit <= 255)
