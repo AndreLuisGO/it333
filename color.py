@@ -1,4 +1,5 @@
-def _convertColorDepth(self, color):
+def convertColorDepth(self, color):
+	  
 	"""
 	Converts from 16 to 8 bit color depth. Necessary
 	for OpenCV functions and GDK colors to interact as the
@@ -9,4 +10,7 @@ def _convertColorDepth(self, color):
 	- self: The main object pointer
 	- color: The integer color value to convert to 0-255
 	"""
-	return int ((color / 65535.0) * 255 )
+
+        return int((color / 65535.0) * 255)
+
+
