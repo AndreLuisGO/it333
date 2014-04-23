@@ -3,7 +3,7 @@ import color
 
 class test_color(unittest.TestCase):
 
-    def test_convertColorDepth_CorrectInput(self):
+    def test_convertColorDepth_CorrectInput_Pass(self):
 
         whiteRgb16Bit = 65535
         expectedWhite8Bit = 255
