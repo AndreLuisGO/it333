@@ -1,7 +1,7 @@
 import unittest
 import color
 
-class test_Module(unittest.TestCase):
+class test_color(unittest.TestCase):
 
     def test_convertColorDepth_CorrectInput(self):
 
