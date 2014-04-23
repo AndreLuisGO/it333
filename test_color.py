@@ -10,7 +10,7 @@ class test_color(unittest.TestCase):
         expectedWhite8Bit = (255)
         
         resultWhite8Bit = color.convertColorDepth(whiteRgb16bit)
-        self.assertTrue(0 <=  expectedWhite8Bit <= 255)
+        self.assertTrue(0 <=  resultWhite8Bit <= 255)
 
         self.assertTrue(
             resultWhite8Bit == expectedWhite8Bit,
